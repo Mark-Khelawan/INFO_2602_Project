@@ -1,5 +1,5 @@
 import pandas as pd
 
-file = pd.read_excel('./App/job_course.xlsx', index_col=0, header=1)
+file = pd.read_excel('./App/job_course.xlsx', index_col=0, header=1, usecols="A:F")
 
 print(file)
